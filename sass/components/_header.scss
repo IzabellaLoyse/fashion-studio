@@ -1,10 +1,10 @@
 /* =========================================================================
-  #LAYOUT:HEADER
+  #COMPONENTS:HEADER
 ============================================================================*/
 
-.header {
-  @include container;
-  display: flex;
-  justify-content: space-between;
+.header__brand {
+  color: map-get($colors , "main-color" );
+  font-size: Rem(35);
+  text-decoration: none;
 }
 
