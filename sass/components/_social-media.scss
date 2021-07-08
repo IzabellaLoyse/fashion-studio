@@ -1,0 +1,20 @@
+/* =========================================================================
+  #COMPONENTS:SOCIAL-MEDIA
+============================================================================*/
+
+.social-media__menu {
+  @include flex(flex, center, center);
+  height: 100%;
+}
+
+
+.social-media__media {
+  margin: 0 Rem(16);
+
+  a {
+    
+    &:hover {
+      color: map-get($colors , "main-color");
+    }
+  }
+}
