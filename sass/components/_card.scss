@@ -1,0 +1,78 @@
+/* =========================================================================
+  #COMPONENTS:CARD
+============================================================================*/
+
+.gallery__card {
+  @include flex(flex, center, center);
+  flex-direction: column;
+  color: map-get($colors, "main-color" );
+  width: 31%;
+  height: Rem(400);
+  margin-bottom: 4%;
+}
+
+
+.gallery__card-title {
+  font-size: Rem(32);
+  font-weight: map-get($font-weight, "light" );
+  margin-bottom: Rem(16);
+}
+
+
+.gallery__card-button {
+  padding: Rem(9.6) Rem(32);
+  border: 2px solid map-get($colors, "main-color" );
+  font-weight: map-get($font-weight, "medium");
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  &:hover {
+    background-color: map-get($colors, "main-color" );
+    color: map-get($colors , "background-color" );
+  }
+}
+
+
+.card-1 {
+  @include background-image('black-white.jpeg');
+}
+
+
+.card-2 {
+  @include background-image('blue.jpeg');
+}
+
+
+.card-3 {
+  @include background-image('korean-model.jpeg');
+}
+
+
+.card-4 {
+  @include background-image('orange.jpeg');
+}
+
+
+.card-5 {
+  @include background-image('people.jpeg');
+}
+
+
+.card-6 {
+  @include background-image('romano-model.jpeg');
+}
+
+
+.card-7 {
+  @include background-image('striped-model.jpeg');
+}
+
+
+.card-8 {
+  @include background-image('winter-collection.jpeg');
+}
+
+
+.card-9 {
+  @include background-image('yellow.jpeg');
+}

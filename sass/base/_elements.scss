@@ -24,6 +24,7 @@ html {
 body {
   background-color: map-get($colors , "background-color" );
   color: map-get($colors , "text-color" );
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 

@@ -1,20 +1,11 @@
 /* =========================================================================
-  #COMPONENTS:MENU
+  #LAYOUT:GALLERY
 ============================================================================*/
 
-
-.menu {
+.gallery {
+  @include container;
   @include flex(flex, center, center);
-  height: 100%;
-}
-
-
-.menu__item {
-  margin: 0 Rem(16);
-  text-transform: uppercase;
-}
-
-
-.menu__link--active {
-  color: map-get($colors , "button-color" );
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
 }

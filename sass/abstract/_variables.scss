@@ -19,6 +19,22 @@ $colors: (
 
 
 /* =========================================================================
+  #TYPOGRAPHY
+============================================================================*/
+
+$font-weight: (
+	"thin": 100,
+	"extra-light": 200,
+	"light": 300,
+	"medium": 500,
+	"bold": 700,
+);
+
+
+
+
+
+/* =========================================================================
   #MEASURES
 ============================================================================*/
 
@@ -43,4 +59,18 @@ $container-width: Rem(1170);
 	max-width: $container-width;
 	padding: Rem(24) 0;
 	margin: 0 auto;
+}
+
+
+@mixin background-image($image) {
+	 background: url('/src/img/#{$image}') center 100% no-repeat;
+	 filter: grayscale(100%);
+	 transition: 0.6s;
+
+	 &:hover {
+		 background-size: 110%;
+		 filter: grayscale(0%);
+		 background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+		 url('/src/img/#{$image}');
+	 }
 }
