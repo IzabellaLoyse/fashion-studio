@@ -1,0 +1,14 @@
+/* =========================================================================
+  #COMPONENTS:FOOTER
+============================================================================*/
+
+.footer__description {
+  text-align: center;
+  padding: Rem(32);
+  font-size: Rem(18);
+
+  span {
+    font-weight: map-get($font-weight , "bold" );
+    color: map-get($colors, "button-color" );
+  }
+}

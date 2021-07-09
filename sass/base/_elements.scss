@@ -4,6 +4,11 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  &:target {
+    scroll-margin-top: 0.8em;
+  }
 }
 
 

@@ -25,6 +25,7 @@
   font-weight: map-get($font-weight, "medium");
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: map-get($colors, "button-text" );
 
   &:hover {
     background-color: map-get($colors, "main-color" );
