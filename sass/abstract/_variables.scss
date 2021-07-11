@@ -64,7 +64,7 @@ $container-width: Rem(1170);
 
 
 @mixin background-image($image) {
-	 background: url('/dist/img/#{$image}') center 100% no-repeat;
+	 background: url('/src/img/#{$image}') center 100% no-repeat;
 	 filter: grayscale(100%);
 	 transition: 0.6s;
 
@@ -72,6 +72,6 @@ $container-width: Rem(1170);
 		 background-size: 110%;
 		 filter: grayscale(0%);
 		 background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-		 url('/dist/img/#{$image}');
+		 url('/src/img/#{$image}');
 	 }
 }
