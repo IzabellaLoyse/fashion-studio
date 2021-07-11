@@ -39,6 +39,7 @@
 
 @import 'layout/header';
 @import 'layout/gallery';
+@import 'layout/information';
 
 
 
@@ -46,8 +47,10 @@
 
 /* =========================================================================
   #COMPONENT
-============================================================================*/ @import 'components/header';
+============================================================================*/ 
+@import 'components/header';
 @import 'components/menu';
 @import 'components/social-media';
 @import 'components/card';
 @import 'components/footer';
+@import 'components/information';

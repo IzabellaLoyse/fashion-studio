@@ -6,12 +6,17 @@
 .menu {
   @include flex(flex, center, center);
   height: 100%;
+
+  @include breakpoint(460px) {
+    display: none;
+  }
 }
 
 
 .menu__item {
   margin: 0 Rem(16);
   text-transform: uppercase;
+  font-weight: map-get($font-weight, "medium" );
 }
 
 

@@ -1,0 +1,18 @@
+/* =========================================================================
+  #COMPONENTS:INFORMATION
+============================================================================*/
+
+.information__title {
+  font-size: Rem(35);
+  text-align: center;
+  padding-bottom: Rem(10);
+  font-weight: map-get($font-weight, "medium" );
+  color: map-get($colors , "main-color" );
+}
+
+
+.information__text {
+  font-weight: map-get($font-weight, "light" );
+  font-size: Rem(18);
+  text-align: center;
+}

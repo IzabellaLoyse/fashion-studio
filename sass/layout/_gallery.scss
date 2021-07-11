@@ -8,4 +8,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
+  
+  @include breakpoint(425px) {
+    flex-direction: column;
+  }
 }

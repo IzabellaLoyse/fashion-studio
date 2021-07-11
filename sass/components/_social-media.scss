@@ -5,6 +5,14 @@
 .social-media__menu {
   @include flex(flex, center, center);
   height: 100%;
+  
+  @include breakpoint(460px) {
+    display: none;
+  }
+
+  @include breakpoint(959px) {
+    padding-top: 2rem;
+  }
 }
 
 
